@@ -8,7 +8,9 @@
 
 function sayHello(name) {
   // your code here
+  return `Hello, ${name}!`;
 }
+
 
 // ----- Checks (do not edit) -----
 check("sayHello(\"Fatma\")", () => sayHello("Fatma"), "Hello, Fatma!");
