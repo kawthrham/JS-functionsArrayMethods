@@ -8,10 +8,17 @@
 
 function maxOfTwo(a, b) {
   // your code here
+  if (a> b){
+    return a;
+  } else{
+    return b;
+  }
 }
 
 function maxOfThree(a, b, c) {
   // your code here
+  const maxFirst = maxOfTwo(a, b)
+  return maxOfTwo(maxFirst, c);
 }
 
 // ----- Checks (do not edit) -----
