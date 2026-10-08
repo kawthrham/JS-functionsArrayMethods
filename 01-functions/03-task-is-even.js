@@ -8,9 +8,14 @@
 
 function isEven(n) {
   // your code here
+  if(n % 2 === 0){
+    return true;
 }
-
+else {
+  return false;
+}
+}
 // ----- Checks (do not edit) -----
 check("isEven(4)", () => isEven(4), true);
 check("isEven(7)", () => isEven(7), false);
-check("isEven(0)", () => isEven(0), true);
+check("isEven(0)", () => isEven(0), true); 
