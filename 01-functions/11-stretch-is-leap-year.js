@@ -8,7 +8,16 @@
 
 function isLeapYear(year) {
   // your code here
-}
+  if (year % 4=== 0 && year %100 !== 0 ){
+    return true;
+  }
+
+  if (year % 400 === 0){
+    return true;
+  }
+
+  else{return false;
+}}
 
 // ----- Checks (do not edit) -----
 check("isLeapYear(2024)", () => isLeapYear(2024), true);
